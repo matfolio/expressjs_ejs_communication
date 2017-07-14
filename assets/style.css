@@ -1,0 +1,96 @@
+h1 {
+	color:blue;
+}
+
+/* navbar */
+.navbar-inverse {
+    background-color: #5d5365;
+    border-color: #5d5365;
+    border-radius:0px;
+}
+
+/* Link */
+.navbar-inverse .navbar-nav > li > a {
+    color: #368059;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #9a1409;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #368059;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #306a9f;
+    background-color: #368059;
+}
+/* Caret */
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: #306a9f;
+    border-bottom-color: #306a9f;
+}
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret,
+.navbar-inverse .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #306a9f;
+    border-bottom-color:  #306a9f;
+}
+.navbar-inverse .navbar-nav > .open > a .caret,
+.navbar-inverse .navbar-nav > .open > a:hover .caret,
+.navbar-inverse .navbar-nav > .open > a:focus .caret {
+    border-top-color:  #306a9f;
+    border-bottom-color:  #306a9f;
+}
+/* Mobile version */
+.navbar-inverse .navbar-toggle {
+    border-color: #eee;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #eee;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #eee;
+}
+
+.library {
+    box-shadow: 5px 5px 5px #eee;
+    background-color:#5d5365;
+    float:left;
+    margin-left:10px;
+    border-radius:10px;
+
+}
+.library h1{
+    color:#eee;
+}
+
+input[type=text] {
+    padding: 12px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #306a9f;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+input[type=text].focus {
+    border-color: #306a9f;
+}
+
+input[type=submit] {
+    padding: 12px 10px;
+    color: #306a9f;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px #ccc;
+}
+

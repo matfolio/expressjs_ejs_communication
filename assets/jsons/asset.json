@@ -1,0 +1,175 @@
+
+{ "book" : [
+				{
+					"Book" : "BookA",
+					"Library" : "Library A",
+				    "copy": "5",
+					"shelve": "2"
+			    },
+				{
+					"Book" : "BookB",
+					"Library" : "Library B",
+				    "copy": "7",
+					"shelve": "7"
+				},
+				{
+					"Book" : "BookC",
+					"Library" : "Library C",
+				    "copy": "5",
+					"shelve": "9"
+				},
+				{
+					"Book" : "BookD",
+					"Library" : "Library D",
+				    "copy": "3",
+					"shelve": "20"
+				},
+				{
+					"Book" : "BookE",
+					"Library" : "Library E",
+				    "copy": "2",
+					"shelve": "2"
+				},
+				{
+					"Book" : "BookF",
+					"Library" : "Library F",
+				    "copy": "7",
+					"shelve": "7"
+				},
+				{
+					"Book" : "BookG",
+					"Library" : "Library G",
+				    "copy": "15",
+					"shelve": "19"
+				},
+				{
+					"Book" : "BookH",
+					"Library" : "Library H",
+				    "copy": "3",
+					"shelve": "01"
+				},
+				{
+					"Book" : "BookM",
+					"Library" : "Library I",
+				    "copy": "1",
+					"shelve": "22"
+				},
+				{
+					"Book" : "BookP",
+					"Library" : "Library H",
+				    "copy": "3",
+					"shelve": "01"
+				},
+				{
+					"Book" : "BookX",
+					"Library" : "Library I",
+				    "copy": "1",
+					"shelve": "22"
+				}
+			]
+    , "library" : [
+				{
+					"Name" : "LibraryA",
+				    "books": "215",
+					"shelves": "20"
+				},
+				{
+					"Name" : "LibraryB",
+				    "books": "200",
+					"shelves": "34"
+				},
+				{
+					"Name" : "LibraryC",
+				    "books": "415",
+					"shelves": "50"
+				},
+				{
+					"Name" : "LibraryD",
+				    "books": "115",
+					"shelves": "16"
+				},
+				{
+					"Name" : "LibraryE",
+				    "books": "210",
+					"shelves": "35"
+				},
+				{
+					"Name" : "LibraryF",
+				    "books": "330",
+					"shelves": "04"
+				},
+				{
+					"Name" : "LibraryG",
+				    "books": "415",
+					"shelves": "50"
+				},
+				{
+					"Name" : "LibraryH",
+				    "books": "215",
+					"shelves": "56"
+				},
+				{
+					"Name" : "LibraryI",
+				    "books": "200",
+					"shelves": "15"
+				}
+			]
+
+    , "staff" : [
+				{
+					"Name" : "Muftau",
+				    "section": "Literature",
+					"library": "Library A"
+				},
+				{
+					"Name" : "Mikko",
+				    "section": "Science",
+					"library": "Library B"
+				},
+				{
+					"Name" : "Jenni",
+				    "section": "Journal",
+					"library": "Library C"
+				},
+				{
+					"Name" : "Tommy",
+				    "section": "Movie",
+					"library": "Library D"
+				},
+				{
+					"Name" : "Kaapo",
+				    "section": "Language",
+					"library": "Library E"
+				},
+				{
+					"Name" : "Mikko",
+				    "section": "Science",
+					"library": "Library F"
+				},
+				{
+					"Name" : "Juha",
+				    "section": "Journal",
+					"library": "Library E"
+				},
+				{
+					"Name" : "Mikka",
+				    "section": "Movie",
+					"library": "Library H"
+				},
+				{
+					"Name" : "Kaapo",
+				    "section": "Jannitys",
+					"library": "Library F"
+				},
+				{
+					"Name" : "Jemal",
+				    "section": "Movie",
+					"library": "Library I"
+				},
+				{
+					"Name" : "sasha",
+				    "section": "Language",
+					"library": "Library J"
+				}
+			]
+}

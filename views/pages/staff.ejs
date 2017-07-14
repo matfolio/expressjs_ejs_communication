@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+  <% include ../partials/head.ejs %>
+</head>
+<body>
+
+<!---  This is actually needed as a partial folder file to inject the header file     -->
+<% include ../partials/header.ejs %>
+  
+<div class="container">
+<form method="post" action ="/staff">
+    <input type="text" name="item" placeholder=" Enter Staff Name">
+    <input type="submit" value ="Search">
+</form>
+<div class ="row">
+	<div class ="well" style="float:left;"> <% content.forEach(function(info)  { %>
+			<div class="well library">
+				<h1> Name: <%= info.Name %> </h1>
+				<h1> Section: <%= info.section %> </h1>
+				<h1> Library: <%= info.library %> </h1>
+			</div>
+		<% }); %>
+
+	</div>
+
+</div>
+  
+</div>
+
+</body>
+</html>
